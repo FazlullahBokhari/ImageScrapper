@@ -105,3 +105,14 @@ search_term = 'Sharukh Khan'
 # num of images you can pass it from here  by default it's 10 if you are not passing
 #number_images = 50
 search_and_download(search_term=search_term, driver_path=DRIVER_PATH, number_images=10)
+
+
+'''
+
+1. try to store ll of these images in mongoDB
+2. try to implement it with class and object
+3. write a function to fetch all the image based on their name from databases 
+4. try to modify the code so that it will first search in data base and check if images are available for a
+respective search if not then only scrap  
+  
+'''
